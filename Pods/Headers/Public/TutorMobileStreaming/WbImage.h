@@ -1,0 +1,1 @@
+../../../TutorMobileStreaming/Pod/Classes/Widget/Whiteboard/WhiteboardObject/WbImage.h

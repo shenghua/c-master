@@ -1,0 +1,25 @@
+{
+  "name": "AlertView",
+  "version": "0.1.0",
+  "summary": "A short description of AlertView.",
+  "description": "",
+  "homepage": "http://192.168.23.109:8035/tingyao/AlertView-iOS",
+  "license": "MIT",
+  "authors": {
+    "TingYao Hsu": "tingyaohsu@tutorabc.com"
+  },
+  "source": {
+    "git": "ssh://git@192.168.23.109:10022/tingyao/AlertView-iOS.git"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/**/*.{xib,xcassets}",
+  "resource_bundles": {
+    "AlertView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VALaunchLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="5fe-0J-OyQ">
+                                <rect key="frame" x="70" y="162" width="180" height="58"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2008-2016 全球领先英语真人外教网" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrs-4i-EeS">
+                                <rect key="frame" x="45" y="519" width="230" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vipabc.com 版权所有" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqq-9x-JqD">
+                                <rect key="frame" x="97" y="498" width="125.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.019607843137254902" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fqq-9x-JqD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5ba-XP-nJd"/>
+                            <constraint firstItem="yrs-4i-EeS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9rE-d8-xkk"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yrs-4i-EeS" secondAttribute="bottom" constant="33" id="E09-Dd-6Pt"/>
+                            <constraint firstItem="5fe-0J-OyQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cDa-SX-cCT"/>
+                            <constraint firstItem="yrs-4i-EeS" firstAttribute="top" secondItem="fqq-9x-JqD" secondAttribute="bottom" constant="5" id="dRd-QJ-vey"/>
+                            <constraint firstItem="5fe-0J-OyQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="142" id="mLo-3j-sM9"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="VALaunchLogo.png" width="180" height="58"/>
+    </resources>
+</document>

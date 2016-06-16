@@ -1,0 +1,1 @@
+../../../TutorMobileStreaming/Pod/Classes/Session/SessionObjects/SessionChatMessage.h

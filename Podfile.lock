@@ -1,0 +1,98 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AlertView (0.1.0)
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - IQKeyboardManager (3.3.5)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Masonry (0.6.4)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - SVProgressHUD (1.1.3)
+  - TutorMobileStreaming (1.0.104):
+    - CocoaLumberjack (= 2.0.0)
+    - JSQMessagesViewController
+    - SVProgressHUD
+    - TutorMobileStreaming/FFmpeg (= 1.0.104)
+    - TutorMobileStreaming/librtmp (= 1.0.104)
+    - WYPopoverController
+  - TutorMobileStreaming/FFmpeg (1.0.104):
+    - CocoaLumberjack (= 2.0.0)
+    - JSQMessagesViewController
+    - SVProgressHUD
+    - TutorMobileStreaming/librtmp
+    - WYPopoverController
+  - TutorMobileStreaming/librtmp (1.0.104):
+    - CocoaLumberjack (= 2.0.0)
+    - JSQMessagesViewController
+    - SVProgressHUD
+    - WYPopoverController
+  - WYPopoverController (0.3.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AlertView (from `http://gitlab.tutorabc.com/TutorMeet/AlertView-iOS.git`)
+  - CocoaLumberjack
+  - IQKeyboardManager
+  - Masonry
+  - SDWebImage
+  - SVProgressHUD
+  - TutorMobileStreaming (from `http://gitlab.tutorabc.com/TutorMeet/TutorMobile-iOS-Streaming.git`)
+
+EXTERNAL SOURCES:
+  AlertView:
+    :git: http://gitlab.tutorabc.com/TutorMeet/AlertView-iOS.git
+  TutorMobileStreaming:
+    :git: http://gitlab.tutorabc.com/TutorMeet/TutorMobile-iOS-Streaming.git
+
+CHECKOUT OPTIONS:
+  AlertView:
+    :commit: e140b530fe7eb7ac98ebe7bdb740f9ecf23234fe
+    :git: http://gitlab.tutorabc.com/TutorMeet/AlertView-iOS.git
+  TutorMobileStreaming:
+    :commit: 2f217d00e2826e6f10ab4cd3d1d73cb4adc86430
+    :git: http://gitlab.tutorabc.com/TutorMeet/TutorMobile-iOS-Streaming.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AlertView: 7cbdc0e08d37bc17fb2fe6b71b5655c59ee06fde
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  IQKeyboardManager: 128bcb96b3ec03ff87942cdd7fa7f44491aa3d08
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TutorMobileStreaming: ecfa8433170af079eb523155e8fba53db481f0e0
+  WYPopoverController: dda54780e1bef186464ae5a10ab9b4998c279e89
+
+COCOAPODS: 0.39.0
