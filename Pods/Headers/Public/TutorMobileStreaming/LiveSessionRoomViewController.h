@@ -1,1 +1,0 @@
-../../../TutorMobileStreaming/Pod/Classes/Session/TestSessionRoom/LiveSessionRoomViewController.h

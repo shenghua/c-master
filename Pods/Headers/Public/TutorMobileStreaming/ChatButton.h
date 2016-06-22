@@ -1,1 +1,0 @@
-../../../TutorMobileStreaming/Pod/Classes/Widget/Chat/ChatButton.h
